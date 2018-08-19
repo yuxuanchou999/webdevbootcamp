@@ -5,4 +5,5 @@ By taking the Web Developer BootCamp on Udemy, I developed the SneakerBar websit
 - comment and rate whatever sneakers
 - Search the sneakers you want and have a look at the uploader's profile
 - Admin can also revise any info of all the sneakers
+
 Feel free to join the SneakerBar https://radiant-sea-89670.herokuapp.com/ and share your favourite sneakers!
