@@ -1,0 +1,22 @@
+<% include ../partials/header %>
+
+<div class="row" style="margin:15px">
+    <div class="col-md-6">
+        <h1><%= user.firstName + ' ' + user.lastName %></h1>
+        <div class="thumbnail">
+            <img src="<%= user.avatar %>" alt="user profile image">
+            <div class="caption"><a href="mailto:<%= user.email %>"><%= user.email %></a></div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <h3><%= user.username %>'s sneakers</h3>
+        <ul>
+            <% sneakers.forEach(function(sneaker){ %>
+           <li><a href="/sneakers/<%= sneaker.id %>"><%= sneaker.name %></a></li>
+        <% }); %>
+        </ul>
+    </div>
+</div>
+
+
+<% include ../partials/footer %>

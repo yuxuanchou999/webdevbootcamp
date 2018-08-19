@@ -1,0 +1,33 @@
+<% include ../partials/header %>
+<div class="container">
+    <div class="row">
+        <h1 style="text-align:center"> Edit Comment </h1>
+        <div style="width: 30%; margin: 25px auto;">
+            <form action="/sneakers/<%= sneaker_id %>/comments/<%= comment._id %>?_method=PUT" method="POST">
+                <div class="form-group">
+                    <label for="text">Comment:</label>
+                    <input class="form-control" id="text" type="text" name="comment[text]" placeholder="text">
+                </div>
+                <label for="rating">Rating:</label>
+                <fieldset class="starability-basic form-group" id="rating">
+                  <input type="radio" id="first-rate5" name="rating" value="5" />
+                  <label for="first-rate5" title="Amazing">5 stars</label>
+                  <input type="radio" id="first-rate4" name="rating" value="4" />
+                  <label for="first-rate4" title="Very good">4 stars</label>
+                  <input type="radio" id="first-rate3" name="rating" value="3" />
+                  <label for="first-rate3" title="Average">3 stars</label>
+                  <input type="radio" id="first-rate2" name="rating" value="2" />
+                  <label for="first-rate2" title="Not good">2 stars</label>
+                  <input type="radio" id="first-rate1" name="rating" value="1" />
+                  <label for="first-rate1" title="Terrible">1 star</label>
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                </div>
+            </form>
+            <a href="/sneakers">Back</a>
+        </div>
+    </div>
+</div>
+
+<% include ../partials/footer %>
