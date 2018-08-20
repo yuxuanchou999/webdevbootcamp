@@ -36,14 +36,14 @@ body {
   background-repeat: no-repeat;
   opacity: 0;
   z-index: 0;
-  animation: imageAnimation 40s linear infinite; 
+  animation: imageAnimation 50s linear infinite; 
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(https://i.imgur.com/T23Igx5b.jpg) 
+  background-image: url(https://i.imgur.com/T23Igx5.png);
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(https://i.imgur.com/eEiZlNcb.jpg);
+  background-image: url(https://i.imgur.com/eEiZlNc.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
@@ -53,6 +53,10 @@ body {
 .slideshow li:nth-child(4) { 
   background-image: url(https://i.imgur.com/lt5SPe5.jpg);
   animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+  background-image: url(https://i.imgur.com/PppvrVc.jpg);
+  animation-delay: 40s; 
 }
 
 
