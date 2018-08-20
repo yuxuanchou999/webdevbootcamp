@@ -7,15 +7,15 @@ By taking the Web Developer BootCamp on Udemy, I developed the SneakerBar websit
 - Admin can also revise any info of all the sneakers
 
 Here are some screenshots of the website:
-# Landing Page
+## Landing Page
 <img src="https://github.com/yuxuanchou999/webdevbootcamp/blob/master/SneakerBar/screenshots/landing%20page.png">
 
-# Home Page
+## Home Page
 <img src="https://github.com/yuxuanchou999/webdevbootcamp/blob/master/SneakerBar/screenshots/home%20page.png">
 
-# Detail Page
+## Detail Page
 <img src="https://github.com/yuxuanchou999/webdevbootcamp/blob/master/SneakerBar/screenshots/detail.png">
 
-# User Profile
+## User Profile
 <img src="https://github.com/yuxuanchou999/webdevbootcamp/blob/master/SneakerBar/screenshots/user%20profile.png">
 Feel free to join the SneakerBar https://radiant-sea-89670.herokuapp.com/ and share your favourite sneakers!
