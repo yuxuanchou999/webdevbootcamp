@@ -18,7 +18,8 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes = require("./routes/index");
     
 // seedDB();
-mongoose.connect("mongodb://localhost/sneakerBar");
+// mongoose.connect("mongodb://localhost/sneakerBar");
+mongoose.connect("mongodb://zyx:zyx87224240@ds125912.mlab.com:25912/sneaker_bar");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
